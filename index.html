@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="张了个张略略略"
+        />
+        <title>我是张了个张</title>
+        <script>
+            var _hmt = _hmt || [];
+            (function () {
+                var hm = document.createElement('script');
+                hm.src =
+                    'https://hm.baidu.com/hm.js?0a5701b62c5da53aa10f9096fccb377c';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(hm, s);
+            })();
+        </script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+        <script
+            async
+            src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
+        ></script>
+        <script async>
+            setTimeout(()=>{
+                const {hostname} = location
+                if(hostname!=='localhost'&&!hostname.endsWith('streakingman.com')){
+                    const a = document.createElement('a')
+                    a.setAttribute('href','https://weibo.com/u/7290211193')
+                    a.setAttribute('target','_blank')
+                    a.innerText='佳宁亲亲'
+                    const p = document.createElement('p')
+                    p.style.textAlign = 'center'
+                    p.append(a)
+                    document.body.prepend(p)
+                }
+            },5000)
+        </script>
+    </body>
+</html>
